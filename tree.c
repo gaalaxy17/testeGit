@@ -31,6 +31,16 @@ Tree *insertNode(Tree *tree,int value){
     
 }
 
+Tree *removeNode(Tree *tree,int value){
+
+    if (tree == NULL){
+        return NULL;
+    }
+
+    //CASES
+
+}
+
 void printTree(Tree *tree){
 
     if (tree == NULL) {
@@ -42,6 +52,7 @@ void printTree(Tree *tree){
     printTree(tree->right);
 
 }
+
 
 
 int main(void){
